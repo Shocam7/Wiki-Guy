@@ -1,0 +1,24 @@
+
+> my-app@0.1.0 start
+> next start
+
+▲ Next.js 16.2.4
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+✓ Ready in 190ms
+Error in elucidate API: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent: [403 Forbidden] Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.
+    at async E (.next/server/chunks/[root-of-the-server]__13su1qr._.js:7:10)
+    at async l (.next/server/chunks/[root-of-the-server]__13su1qr._.js:7:3377)
+    at async s (.next/server/chunks/[root-of-the-server]__13su1qr._.js:7:4418) {
+  status: 403,
+  statusText: 'Forbidden',
+  errorDetails: undefined
+}
+Error in topic classification API: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash:generateContent: [403 Forbidden] Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.
+    at async y (.next/server/chunks/[root-of-the-server]__0awmyqc._.js:14:10)
+    at async l (.next/server/chunks/[root-of-the-server]__0awmyqc._.js:14:3515)
+    at async s (.next/server/chunks/[root-of-the-server]__0awmyqc._.js:14:4556) {
+  status: 403,
+  statusText: 'Forbidden',
+  errorDetails: undefined
+}
